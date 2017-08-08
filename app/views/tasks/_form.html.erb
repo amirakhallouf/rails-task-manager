@@ -1,0 +1,10 @@
+
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :message %>
+  <%= f.text_field :message %>
+  <%= f.submit %>
+<% end %>
+
+<!--  an efficient way for creating form; if we inspect we find that it gave me input .... -->
